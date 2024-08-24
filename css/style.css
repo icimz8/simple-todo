@@ -1,0 +1,99 @@
+
+.box-greet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.box-greet p {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+.box-greet input {
+  width: 400px;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffffa0;
+  border-radius: 0;
+  color: #fff;
+  text-align: center;
+}
+.box-greet input:focus{
+  border-bottom: 1px solid #fff;
+}
+.box-greet input::placeholder{
+  color: #ffffffa0;
+}
+.message-greet {
+  color: #fff;
+  font-size: 30px;
+  font-style: italic;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Todo list */
+.todo-container {
+  width: 300px;
+  min-height: 500px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #000000a0;
+  box-shadow: rgba(255, 255, 255, 0.479) 0px 0px 2px;
+  color: #fff;
+}
+.todo-list {
+
+}
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 3px 8px;
+  background-color: rgba(132, 132, 132, 0.64);
+  border-radius: 4px; 
+}
+.todo-list li .btn-save {
+  margin-left: auto;
+  margin-right: 10px ;
+}
+.todo-list li i {
+  font-size: 15px;
+  color: #fff;
+}
+
+.todo-container input {
+  width: 100%;
+  min-height: 30px; 
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  font-size: 15px;
+}
+
+.todo-list i{
+  color: #fff;
+}
+
+.todo-list .btn-edit {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+/* CLOCK */
+.clock .text {
+  font-size: 20px;
+  color: #fff;
+}

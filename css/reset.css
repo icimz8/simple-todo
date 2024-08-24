@@ -1,0 +1,41 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+* {
+  margin: 0; padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: url(../asset/bg.jpeg)no-repeat center /cover;
+}
+
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+input,textarea {
+  border-radius: 6px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  resize: none;
+}

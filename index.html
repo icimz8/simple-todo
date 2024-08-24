@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simple todo app</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tutorialjinni.com/uuid/8.3.2/uuid.min.js"></script>
+  <script type="module" src="./js/namePrompt.js" defer></script>
+  <script type="module" src="./js/main.js" defer></script>
+  <script type="module" src="./js/clock.js" defer></script>
+</head>
+
+<body>
+  <div class="box-greet">
+    <div class="user-info">
+      <p>What's your name ?</p>
+      <input type="text" placeholder="Please type your name and press Enter." id="nameInput">
+    </div>
+  </div>
+  <section class="container hide">
+    <div class="message-greet hide">hello stranger</div>
+    <div class="clock">
+      <p class="text">00:00</p>
+    </div>
+    <div class="todo-container">
+      <input id="toDoInput" placeholder="Please write your task and press Enter."></input>
+
+      <ul class="todo-list">
+      </ul>
+
+    </div>
+  </section>
+</body>
+
+</html>
